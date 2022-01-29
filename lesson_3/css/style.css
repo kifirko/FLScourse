@@ -1,0 +1,46 @@
+/* Обнуление */
+@import "null.css";
+
+body {
+   color: rgb(41, 41, 41);
+}
+
+.navigation a {
+   color: rgb(29, 102, 236);
+}
+
+.navigation {
+   color: cornflowerblue;
+}
+
+mark {
+   color: red;
+}
+
+h2 {
+   color: blueviolet;
+}
+
+span {
+   color: brown;
+}
+
+[class*="-4"] {
+   color: lightcoral;
+}
+
+#five {
+   color: sienna;
+}
+
+.chapter-5 p {
+   color: red;
+}
+
+.chapter-5 {
+   color: orange;
+}
+
+div.fish-above-p {
+   color: hotpink;
+}
