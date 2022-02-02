@@ -1,0 +1,130 @@
+/* &display=swap */
+
+/* Обнуление */
+@import "null.css";
+
+/* Подключаем через гугл */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,regular,italic,700&display=swap");
+
+/* Загрузка шрифтов из файла */
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-Regular.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-LightItalic.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-LightItalic.woff") format("woff");
+   font-weight: 300;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-ExtraBoldItalic.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-ExtraBoldItalic.woff") format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+body {
+   color: rgb(41, 41, 41);
+   font-family: "IBM Plex Sans";
+}
+
+.site-img,
+h1,
+h2 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+h1 {
+   font-family: SourceSerif;
+   font-weight: 900;
+   font-style: italic;
+   font-size: 22px;
+   line-height: 3;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+nav {
+   text-align: right;
+}
+
+.navigation a {
+   color: rgb(29, 102, 236);
+   font-family: "IBM Plex Sans";
+   font-weight: 100;
+   text-decoration: underline;
+}
+
+.navigation {
+   color: cornflowerblue;
+}
+
+mark {
+   color: red;
+}
+
+h2 {
+   color: blueviolet;
+   line-height: 2;
+   font-size: 22px;
+}
+
+#one {
+   line-height: 1.2;
+}
+
+span {
+   color: brown;
+   letter-spacing: 5px;
+   font-family: "IBM Plex Sans";
+   font-weight: 300;
+   font-style: italic;
+}
+
+p {
+   line-height: 1.2;
+}
+
+[class*="-4"] {
+   color: lightcoral;
+   text-transform: lowercase;
+}
+
+[class*="chapter"] {
+   text-indent: 25px;
+}
+
+#five {
+   color: sienna;
+}
+
+.chapter-5 p {
+   color: red;
+   word-spacing: 20px;
+}
+
+.chapter-5 {
+   color: orange;
+}
+
+div.fish-above-p {
+   color: hotpink;
+   text-align: justify;
+}
+
+.link {
+   text-decoration: line-through;
+}

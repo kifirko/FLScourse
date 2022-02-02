@@ -1,0 +1,49 @@
+/* &display=swap */
+
+/* Обнуление */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+   font-family: Lato;
+   color: #1e212c;
+}
+
+.container {
+   width: 810px;
+}
+.title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+}
+.main_img {
+}
+img {
+   width: 100%;
+}
+.sub-title {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+}
+.block-text {
+   line-height: 1.6;
+}
+
+p {
+   font-weight: 400;
+   font-size: 16px;
+   color: #424551;
+}
+.quote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   padding: 0px 0px 0px 58px;
+}
+.list {
+   line-height: 1.9;
+   text-indent: 35px;
+}
