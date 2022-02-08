@@ -1,0 +1,180 @@
+/* &display=swap */
+
+/* Обнуление */
+@import "null.css";
+
+/* Подключаем через гугл */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,regular,italic,700&display=swap");
+
+/* Загрузка шрифтов из файла */
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-Regular.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-LightItalic.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-LightItalic.woff") format("woff");
+   font-weight: 300;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SourceSerif";
+   src: url("../fonts/SourceSerif4-ExtraBoldItalic.woff2") format("woff2"),
+      url("../fonts/SourceSerif4-ExtraBoldItalic.woff") format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+body {
+   color: rgb(41, 41, 41);
+   font-family: "IBM Plex Sans";
+   width: 100%;
+}
+
+p {
+   margin: 0px 0px 10px 0px;
+}
+
+.wrapper {
+   max-width: 90%;
+   margin: 0 auto;
+}
+
+.site-img,
+h1,
+h2 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+h1 {
+   font-family: SourceSerif;
+   font-weight: 900;
+   font-style: italic;
+   font-size: 22px;
+   line-height: 3;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+nav {
+   text-align: right;
+}
+
+li {
+   margin: 0px 0px 5px 0px;
+}
+
+.chapter-1 p {
+   max-width: 50%;
+}
+
+.navigation a {
+   color: rgb(29, 102, 236);
+   font-family: "IBM Plex Sans";
+   font-weight: 100;
+   text-decoration: underline;
+}
+
+.navigation {
+   color: cornflowerblue;
+}
+
+footer .navigation li {
+   font-size: 12px;
+   display: inline;
+   margin: 0px 5px;
+}
+
+footer nav {
+   text-align: center;
+   max-width: 100%;
+}
+
+mark {
+   color: red;
+}
+
+h2 {
+   color: blueviolet;
+   line-height: 2;
+   font-size: 22px;
+}
+
+#one {
+   line-height: 1.2;
+}
+
+span .scroll {
+   color: red;
+}
+
+span {
+   color: brown;
+   letter-spacing: 5px;
+   font-family: "IBM Plex Sans";
+   font-weight: 300;
+   font-style: italic;
+}
+
+.scroll {
+   color: red;
+   letter-spacing: normal;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+}
+
+mark {
+   padding: 15px;
+}
+
+p {
+   line-height: 1.2;
+}
+
+[class*="-4"] {
+   color: lightcoral;
+   text-transform: lowercase;
+}
+
+[class*="chapter"] {
+   text-indent: 25px;
+}
+
+#five {
+   color: sienna;
+}
+
+.chapter-3 ul {
+   max-height: 80px;
+   overflow: auto;
+}
+
+.chapter-5 p {
+   color: red;
+   word-spacing: 20px;
+}
+
+.chapter-5 {
+   color: orange;
+}
+
+div.fish-above-p {
+   color: hotpink;
+   text-align: justify;
+}
+
+.link {
+   text-decoration: line-through;
+}
