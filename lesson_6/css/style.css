@@ -100,7 +100,7 @@ span {
    box-shadow: inset 0px 0px 8px 5px silver;
 }
 
-.list-name {
+p.list-name {
    outline: none;
    border-bottom: 1px dotted #4285f4;
    font-size: 18px;
