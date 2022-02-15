@@ -1,0 +1,144 @@
+/* &display=swap */
+
+/* Обнуление */
+@import "null.css";
+
+/* Подключаем через гугл */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,regular,italic,700&display=swap");
+
+/* Загрузка шрифтов из файла */
+
+body {
+   font-family: "IBM Plex Sans";
+   /* min-height: 100%; */
+}
+
+img {
+   max-width: 150px;
+   border: 2px dotted #00a1f1;
+   border-radius: 30px;
+   padding: 15px 10px 10px 10px;
+   margin: 5px;
+}
+main {
+   text-align: justify;
+   text-indent: 25px;
+}
+header {
+   padding: 15px 0;
+   max-width: 80%;
+   margin: 0 auto 15px auto;
+   text-align: center;
+   border-top: 1px solid #ea4335;
+   border-bottom: 1px solid #34a853;
+}
+
+h1 {
+   color: #4285f4;
+   font-weight: 700;
+   font-style: italic;
+   font-size: 22px;
+   opacity: 50%;
+}
+
+.subtitle {
+   color: #fbbc05;
+   font-style: italic;
+   font-size: 18px;
+   opacity: 50%;
+}
+
+.wrapper {
+   padding: 15px 10px;
+   margin: 0 auto;
+   max-width: 80%;
+
+   border-left: 1px solid silver;
+   border-right: 1px solid silver;
+
+   overflow: scroll;
+
+   box-shadow: 1px 15px 10px 1px #4285f4;
+}
+
+p,
+.block-text {
+   margin: 0px 0px 10px 0px;
+}
+
+span {
+   display: block;
+   margin: 0px 0px 10px 0px;
+}
+
+span {
+   outline: 1px dashed blue;
+}
+
+.block-text {
+   border: 2px double #34a853;
+   padding: 8px;
+   border-radius: 15px 0 15px 0;
+}
+
+#one {
+   border: 0.5px solid #fbbc05;
+   padding: 8px;
+   border-radius: 20px 20px 0 0;
+   margin: 0px 0px 2px 0px;
+}
+
+#two {
+   border: 0.5px solid #4285f4;
+   padding: 8px;
+   border-radius: 0 0 20px 20px;
+}
+
+#tree {
+   border: 0.5px solid white;
+   padding: 8px;
+   box-shadow: inset 0px 0px 8px 5px silver;
+}
+
+.list-name {
+   outline: none;
+   border-bottom: 1px dotted #4285f4;
+   font-size: 18px;
+   font-style: italic;
+}
+
+.list {
+   max-width: 30%;
+   margin: 0 0 0 auto;
+   border: 1px dotted #4285f4;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+/* ===========  background  =========== */
+
+body {
+   background: url("../img/Google-Logo-Icon-1-2001x2048.png") 0 0 / 20px round, rgba(251, 189, 5, 0.282);
+}
+
+.wrapper {
+   background-color: white;
+}
+
+#one {
+   background-color: rgba(52, 168, 83, 0.2);
+}
+
+#two {
+   background-color: rgba(234, 68, 53, 0.2);
+}
+
+.block-text {
+   background-color: #fbbc05;
+}
+
+li {
+   line-height: 1.4;
+   background: url("../img/free-icon-right-arrow-271228.png") 0 5px / 12px no-repeat;
+   padding: 0px 0px 0px 15px;
+}
