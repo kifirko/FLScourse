@@ -117,7 +117,7 @@ footer {
 }
 
 .some-title:hover::first-letter {
-   color: #ff3f3a;
+   color: #ff3f3a; 
 }
 
 .some-title:active::after {
